@@ -1,6 +1,7 @@
 
 import Hero from "./components/Hero";
 import CoreObservation from "./components/CoreObservation";
+import Perspective from "./components/Perspective";
 import ControlPlaneVisual from "./components/ControlPlaneVisual";
 import Observations from "./components/Observations";
 import EnterprisePrinciples from "./components/EnterprisePrinciples";
@@ -41,9 +42,12 @@ export default function Home() {
         </header>
 
         {/* Hero */}
+
 <Hero />
 
 <CoreObservation />
+
+<Perspective />
 
 <ControlPlaneVisual />
 
