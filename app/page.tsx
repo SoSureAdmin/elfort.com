@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import CoreObservation from "./components/CoreObservation";
 import ControlPlaneVisual from "./components/ControlPlaneVisual";
 import Observations from "./components/Observations";
+import EnterprisePrinciples from "./components/EnterprisePrinciples";
 
 
 export default function Home() {
@@ -47,6 +48,8 @@ export default function Home() {
 <ControlPlaneVisual />
 
 <Observations />
+
+<EnterprisePrinciples />
 
 {/* Current work */}
         <section className="border-t border-white/[0.08] py-20 md:py-28">
