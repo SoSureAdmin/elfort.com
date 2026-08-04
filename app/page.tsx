@@ -1,5 +1,9 @@
-import ControlPlaneVisual from "./components/ControlPlaneVisual";
+
 import Hero from "./components/Hero";
+import CoreObservation from "./components/CoreObservation";
+import ControlPlaneVisual from "./components/ControlPlaneVisual";
+import Observations from "./components/Observations";
+
 
 export default function Home() {
   return (
@@ -36,27 +40,15 @@ export default function Home() {
         </header>
 
         {/* Hero */}
-        <Hero />
+<Hero />
 
-        {/* Core observation */}
-        <section className="border-t border-white/[0.08] py-24 md:py-32">
-          <div className="max-w-[940px]">
-            <div className="text-xs font-semibold uppercase tracking-[0.28em] text-blue-300">
-              Observation
-            </div>
+<CoreObservation />
 
-            <blockquote className="mt-8 text-5xl font-semibold leading-[1.02] tracking-[-0.045em] text-white md:text-7xl lg:text-[82px]">
-              Adoption always
-              <br />
-              outpaces control.
-            </blockquote>
-          </div>
-        </section>
+<ControlPlaneVisual />
 
-        {/* Enterprise AI Control Plane */}
-        <ControlPlaneVisual />
+<Observations />
 
-        {/* Current work */}
+{/* Current work */}
         <section className="border-t border-white/[0.08] py-20 md:py-28">
           <div className="max-w-[820px]">
             <div className="text-xs font-medium uppercase tracking-[0.22em] text-white/44">
