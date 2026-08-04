@@ -1,7 +1,6 @@
 import ControlPlaneVisual from "./components/ControlPlaneVisual";
-import OperatingModel from "./components/OperatingModel";
-import ControlPlane from "./components/ControlPlane";
 import Hero from "./components/Hero";
+
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#080d17] text-white">
@@ -36,25 +35,42 @@ export default function Home() {
           </div>
         </header>
 
+        {/* Hero */}
         <Hero />
-        <ControlPlane />
-        <OperatingModel />
+
+        {/* Core observation */}
+        <section className="border-t border-white/[0.08] py-24 md:py-32">
+          <div className="max-w-[940px]">
+            <div className="text-xs font-semibold uppercase tracking-[0.28em] text-blue-300">
+              Observation
+            </div>
+
+            <blockquote className="mt-8 text-5xl font-semibold leading-[1.02] tracking-[-0.045em] text-white md:text-7xl lg:text-[82px]">
+              Adoption always
+              <br />
+              outpaces control.
+            </blockquote>
+          </div>
+        </section>
+
+        {/* Enterprise AI Control Plane */}
         <ControlPlaneVisual />
 
-        {/* Focus areas */}
-        <section className="border-t border-white/[0.08] py-20">
-          <div className="max-w-[780px]">
+        {/* Current work */}
+        <section className="border-t border-white/[0.08] py-20 md:py-28">
+          <div className="max-w-[820px]">
             <div className="text-xs font-medium uppercase tracking-[0.22em] text-white/44">
-              Selected engagement
+              Current work
             </div>
 
             <h2 className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
-              Focused where experience can create measurable value
+              Applying four decades of enterprise experience where operational
+              control matters most.
             </h2>
           </div>
 
           <div className="mt-12 grid gap-5 md:grid-cols-3">
-            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7">
+            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
               <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
                 01
               </div>
@@ -64,8 +80,8 @@ export default function Home() {
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-white/62">
-                Founder and strategic lead for the Enterprise AI Control Plane,
-                governance visibility and operational oversight.
+                Leading the development of the Enterprise AI Control Plane for
+                visibility, governance and operational oversight.
               </p>
 
               <a
@@ -79,33 +95,35 @@ export default function Home() {
               </a>
             </article>
 
-            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7">
+            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
               <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
                 02
               </div>
 
               <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-                Strategic Engagements
+                Executive Advisory
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-white/62">
-                Selective involvement where positioning, commercial structure
-                and execution require senior enterprise perspective.
+                Selective involvement where strategy, commercial structure,
+                leadership and execution require senior enterprise
+                perspective.
               </p>
             </article>
 
-            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7">
+            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
               <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
                 03
               </div>
 
               <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-                Enterprise Perspective
+                Enterprise Observations
               </h3>
 
               <p className="mt-4 text-sm leading-7 text-white/62">
-                Writing and dialogue around AI governance, infrastructure,
-                leadership and long-term enterprise resilience.
+                Writing and dialogue on enterprise technology, AI governance,
+                infrastructure, leadership and long-term organisational
+                resilience.
               </p>
             </article>
           </div>
@@ -131,7 +149,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Closing */}
+        {/* Contact */}
         <section className="border-t border-white/[0.08] py-20">
           <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
