@@ -1,11 +1,5 @@
 import Image from "next/image";
 
-const strengths = [
-  "Enterprise perspective",
-  "Global relationships",
-  "Trust and execution",
-];
-
 export default function Hero() {
   return (
     <section
@@ -39,38 +33,34 @@ export default function Hero() {
           </p>
         </div>
 
-        <p className="mt-10 max-w-[690px] text-lg leading-9 text-white/62">
-          I have spent four decades working across technologies, organisations
-          and cultures—building trust, connecting people and helping turn
-          complex ideas into meaningful action.
-        </p>
+        <div className="mt-10 max-w-[690px] space-y-5 text-lg leading-9 text-white/62">
+          <p>
+            For more than four decades, I have worked with founders, engineers,
+            executives, investors and global enterprises.
+          </p>
 
-        <div className="mt-9 flex flex-wrap gap-3">
-          {strengths.map((strength) => (
-            <span
-              key={strength}
-              className="rounded-full border border-white/[0.1] bg-white/[0.025] px-4 py-2 text-xs font-medium uppercase tracking-[0.16em] text-white/58"
-            >
-              {strength}
-            </span>
-          ))}
+          <p>Technology has always been part of the journey.</p>
+
+          <p className="text-white/82">People have always been the reason.</p>
         </div>
 
         <div className="mt-10 flex flex-wrap gap-4">
           <a
-            href="#perspective"
+            href="mailto:daniel@elfort.com"
             className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-[#080d17] transition hover:bg-white/88"
           >
-            Perspective
-            <span aria-hidden="true">↓</span>
+            Start a conversation
+            <span aria-hidden="true">↗</span>
           </a>
 
           <a
-            href="#current-work"
+            href="https://www.sosure.us"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
           >
-            Current work
-            <span aria-hidden="true">↓</span>
+            Visit SoSure
+            <span aria-hidden="true">↗</span>
           </a>
         </div>
       </div>

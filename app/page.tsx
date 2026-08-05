@@ -1,11 +1,7 @@
-
 import Hero from "./components/Hero";
-import CoreObservation from "./components/CoreObservation";
 import Perspective from "./components/Perspective";
-import ControlPlaneVisual from "./components/ControlPlaneVisual";
 import Observations from "./components/Observations";
-import EnterprisePrinciples from "./components/EnterprisePrinciples";
-
+import CurrentWork from "./components/CurrentWork";
 
 export default function Home() {
   return (
@@ -41,144 +37,99 @@ export default function Home() {
           </div>
         </header>
 
-        {/* Hero */}
+        {/* Daniel */}
+        <Hero />
 
-<Hero />
+        {/* What experience taught me */}
+        <Perspective />
 
-<CoreObservation />
+        {/* Observations */}
+        <Observations />
 
-<Perspective />
+        {/* Building, advising and writing */}
+        <CurrentWork />
 
-<ControlPlaneVisual />
-
-<Observations />
-
-<EnterprisePrinciples />
-
-{/* Current work */}
-        <section className="border-t border-white/[0.08] py-20 md:py-28">
-          <div className="max-w-[820px]">
-            <div className="text-xs font-medium uppercase tracking-[0.22em] text-white/44">
-              Current work
-            </div>
-
-            <h2 className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
-              Applying four decades of enterprise experience where operational
-              control matters most.
-            </h2>
-          </div>
-
-          <div className="mt-12 grid gap-5 md:grid-cols-3">
-            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
-              <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-                01
-              </div>
-
-              <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-                SoSure
-              </h3>
-
-              <p className="mt-4 text-sm leading-7 text-white/62">
-                Leading the development of the Enterprise AI Control Plane for
-                visibility, governance and operational oversight.
-              </p>
-
-              <a
-                href="https://www.sosure.us"
-                target="_blank"
-                rel="noreferrer"
-                className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200"
-              >
-                Visit SoSure
-                <span aria-hidden="true">↗</span>
-              </a>
-            </article>
-
-            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
-              <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-                02
-              </div>
-
-              <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-                Executive Advisory
-              </h3>
-
-              <p className="mt-4 text-sm leading-7 text-white/62">
-                Selective involvement where strategy, commercial structure,
-                leadership and execution require senior enterprise
-                perspective.
-              </p>
-            </article>
-
-            <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
-              <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-                03
-              </div>
-
-              <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-                Enterprise Observations
-              </h3>
-
-              <p className="mt-4 text-sm leading-7 text-white/62">
-                Writing and dialogue on enterprise technology, AI governance,
-                infrastructure, leadership and long-term organisational
-                resilience.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        {/* Enterprise thinking */}
-        <section className="border-t border-white/[0.08] py-24 md:py-32">
-          <div className="grid gap-12 lg:grid-cols-[0.65fr_1.35fr]">
-            <div className="text-xs font-medium uppercase tracking-[0.22em] text-white/44">
-              Enterprise thinking
-            </div>
-
-            <div>
-              <blockquote className="max-w-[850px] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] text-white md:text-6xl">
-                AI is becoming infrastructure. Governance must become
-                operational.
-              </blockquote>
-
-              <div className="mt-10 text-sm font-semibold uppercase tracking-[0.28em] text-blue-300">
-                SEE. GOVERN. CONTROL.
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Contact */}
-        <section className="border-t border-white/[0.08] py-20">
-          <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end">
+        {/* Conversation */}
+        <section
+          id="contact"
+          className="border-t border-white/[0.08] py-24 md:py-32"
+        >
+          <div className="grid gap-12 lg:grid-cols-[0.7fr_1.3fr]">
             <div>
               <div className="text-xs font-medium uppercase tracking-[0.22em] text-white/44">
-                Contact
+                Conversation
               </div>
-
-              <h2 className="mt-5 max-w-[760px] text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
-                Strategic dialogue begins with a clear purpose.
-              </h2>
             </div>
 
-            <a
-              href="mailto:daniel@elfort.com"
-              className="inline-flex w-fit items-center gap-3 rounded-xl border border-white/[0.12] bg-white/[0.035] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/25 hover:bg-white/[0.07]"
-            >
-              daniel@elfort.com
-              <span aria-hidden="true">↗</span>
-            </a>
+            <div>
+              <h2 className="max-w-[850px] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] text-white md:text-6xl">
+                Let&apos;s continue the conversation.
+              </h2>
+
+              <div className="mt-10 max-w-[720px] space-y-5 text-lg leading-9 text-white/62">
+                <p>
+                  The most valuable opportunities in my career rarely started
+                  with a presentation.
+                </p>
+
+                <p className="text-white/82">
+                  They started with a conversation.
+                </p>
+
+                <p>
+                  If my experience, perspective or current work resonates with
+                  you, I would be pleased to hear from you.
+                </p>
+              </div>
+
+              <div className="mt-10 flex flex-wrap gap-4">
+                <a
+                  href="mailto:daniel@elfort.com"
+                  className="inline-flex items-center gap-3 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-[#080d17] transition hover:bg-white/88"
+                >
+                  Email Daniel
+                  <span aria-hidden="true">↗</span>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/danielconnelfort"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-3 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
+                >
+                  LinkedIn
+                  <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
           </div>
+        </section>
+
+        {/* Closing thought */}
+        <section className="border-t border-white/[0.08] py-24 md:py-32">
+          <blockquote className="max-w-[980px] text-4xl font-semibold leading-[1.08] tracking-[-0.035em] text-white md:text-6xl">
+            Experience tells you what happened.
+            <br />
+            <span className="text-white/48">
+              Perspective helps you understand why.
+            </span>
+          </blockquote>
         </section>
 
         {/* Footer */}
-        <footer className="flex flex-col gap-4 border-t border-white/[0.08] py-7 text-xs text-white/40 md:flex-row md:items-center md:justify-between">
+        <footer className="flex flex-col gap-5 border-t border-white/[0.08] py-8 text-xs text-white/40 md:flex-row md:items-end md:justify-between">
           <div>
-            © {new Date().getFullYear()} Daniel Conn Elfort. All rights
-            reserved.
+            <div className="font-medium text-white/65">
+              Daniel Conn Elfort
+            </div>
+
+            <div className="mt-2">Copenhagen, Denmark</div>
           </div>
 
-          <div>Elfort.com · Copenhagen</div>
+          <div className="md:text-right">
+            <div>Technology connects systems.</div>
+            <div className="mt-1 text-white/65">Trust connects people.</div>
+          </div>
         </footer>
       </div>
     </main>

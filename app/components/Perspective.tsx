@@ -7,7 +7,7 @@ export default function Perspective() {
       <div className="grid gap-14 lg:grid-cols-[0.55fr_1.45fr] lg:gap-20">
         <div>
           <div className="text-xs font-semibold uppercase tracking-[0.28em] text-blue-300">
-            Perspective
+            What Experience Taught Me
           </div>
         </div>
 
@@ -28,30 +28,38 @@ export default function Perspective() {
 
             <p className="text-lg leading-9 text-white/62 md:text-xl md:leading-10">
               Over the years, I have worked with people who built companies,
-              people who transformed them and people who invested in them.
+              transformed organisations and invested in new ideas.
             </p>
 
             <div className="space-y-2 text-lg leading-9 text-white/62 md:text-xl md:leading-10">
               <p>Different industries.</p>
               <p>Different cultures.</p>
               <p>Different technologies.</p>
+
               <p className="pt-3 text-white/82">
                 Remarkably similar human challenges.
               </p>
             </div>
 
             <p className="text-lg leading-9 text-white/62 md:text-xl md:leading-10">
-              I have learned that trust is built long before technology creates
-              value. That listening often leads to better decisions. And that
-              bringing the right people together is often the most important
-              contribution a leader can make.
+              Experience has taught me that trust is built long before
+              technology creates value.
             </p>
 
             <p className="text-lg leading-9 text-white/62 md:text-xl md:leading-10">
-              I have never believed leadership is about having all the answers.
-              It is about asking better questions, recognising patterns,
-              creating momentum and building teams that are stronger than any
-              individual.
+              That listening usually leads to better decisions.
+            </p>
+
+            <p className="text-lg leading-9 text-white/62 md:text-xl md:leading-10">
+              That great organisations are built by exceptional people.
+            </p>
+
+            <p className="text-lg leading-9 text-white/62 md:text-xl md:leading-10">
+              And that leadership is rarely about having all the answers.
+            </p>
+
+            <p className="text-2xl font-medium leading-relaxed text-white md:text-3xl">
+              It is about asking better questions.
             </p>
 
             <blockquote className="border-l border-blue-300/45 pl-7 text-2xl font-medium leading-relaxed text-white md:text-3xl">
@@ -61,6 +69,11 @@ export default function Perspective() {
             <p className="text-base leading-8 text-white/48 md:text-lg">
               A leadership principle I expressed in an interview with Børsen
               in the early 2000s — and one I still believe today.
+            </p>
+
+            <p className="text-lg leading-9 text-white/62 md:text-xl md:leading-10">
+              Some opportunities take months. Others take years. I have never
+              been in a hurry to build something that matters.
             </p>
 
             <div className="pt-6 text-3xl font-semibold leading-relaxed tracking-[-0.025em] text-white md:text-4xl">

@@ -1,18 +1,18 @@
 const observations = [
   {
     number: "01",
-    title: "Adoption always outpaces control.",
-    text: "Technology scales faster than organisational oversight, accountability and governance.",
+    title: "Technology connects systems. Trust connects people.",
+    text: "Technology makes organisations faster. Trust makes them stronger.",
   },
   {
     number: "02",
-    title: "Visibility precedes governance.",
-    text: "Leadership cannot govern what the organisation cannot identify, understand and monitor.",
+    title: "Relationships compound.",
+    text: "The most valuable opportunities in my career rarely came from cold introductions. They came from people who remembered how we worked together years earlier.",
   },
   {
     number: "03",
-    title: "Operational complexity grows quietly.",
-    text: "The consequences often become visible only after systems, responsibilities and dependencies have already fragmented.",
+    title: "Curiosity ages better than certainty.",
+    text: "Every technology wave eventually changes. The willingness to keep learning never goes out of date.",
   },
 ];
 
@@ -26,8 +26,13 @@ export default function Observations() {
           </div>
 
           <h2 className="mt-5 max-w-[420px] text-3xl font-semibold leading-tight tracking-[-0.03em] text-white md:text-5xl">
-            Patterns recognised through enterprise experience.
+            What experience has taught me.
           </h2>
+
+          <p className="mt-6 max-w-[420px] text-base leading-8 text-white/58">
+            Four decades in technology taught me many things.
+            These are the observations that continue to guide my work.
+          </p>
         </div>
 
         <div className="divide-y divide-white/[0.08] border-y border-white/[0.08]">
