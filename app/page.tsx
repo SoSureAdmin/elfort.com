@@ -6,7 +6,10 @@ import CurrentFocus from "./components/CurrentFocus";
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#080d17] text-white">
+    <main
+      id="top"
+      className="min-h-screen overflow-hidden bg-[#080d17] text-white"
+    >
       {/* Background */}
       <div className="pointer-events-none fixed inset-0">
         <div className="absolute left-[-12rem] top-[-14rem] h-[34rem] w-[34rem] rounded-full bg-blue-600/10 blur-[120px]" />
@@ -25,24 +28,25 @@ export default function Home() {
 
       <div className="relative mx-auto flex min-h-screen max-w-[1240px] flex-col px-6 md:px-10">
         {/* Header */}
-       <header className="flex items-center justify-between border-b border-white/[0.08] py-6">
-  <a
-    href="#top"
-    className="transition-opacity duration-300 hover:opacity-80"
-  >
-    <Image
-      src="/brand/monogram-gold.png"
-      alt="Elfort"
-      width={50}
-      height={50}
-      priority
-    />
-  </a>
+        <header className="flex items-center justify-between border-b border-white/[0.08] py-6">
+          <a
+            href="#top"
+            aria-label="Back to top"
+            className="transition-opacity duration-300 hover:opacity-80"
+          >
+            <Image
+              src="/brand/monogram-gold.svg"
+              alt="Elfort"
+              width={50}
+              height={50}
+              priority
+            />
+          </a>
 
-  <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
-    Copenhagen, Denmark
-  </div>
-</header>
+          <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
+            Copenhagen, Denmark
+          </div>
+        </header>
 
         {/* Daniel */}
         <Hero />
@@ -125,7 +129,20 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="border-t border-white/[0.08] py-10">
-          <div className="flex flex-col items-center gap-3 text-center">
+          <div className="flex flex-col items-center gap-5 text-center">
+            <a
+              href="#top"
+              aria-label="Back to top"
+              className="transition-opacity duration-300 hover:opacity-80"
+            >
+              <Image
+                src="/brand/monogram-gold.svg"
+                alt="Elfort"
+                width={42}
+                height={42}
+              />
+            </a>
+
             <div className="text-sm font-medium text-white">
               Daniel Conn Elfort
             </div>
