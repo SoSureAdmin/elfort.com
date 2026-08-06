@@ -1,4 +1,4 @@
-export default function CurrentWork() {
+export default function CurrentFocus() {
   return (
     <section
       id="current-work"

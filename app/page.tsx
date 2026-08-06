@@ -1,7 +1,7 @@
 import Hero from "./components/Hero";
 import Perspective from "./components/Perspective";
 import Observations from "./components/Observations";
-import CurrentWork from "./components/CurrentWork";
+import CurrentFocus from "./components/CurrentFocus";
 
 export default function Home() {
   return (
@@ -47,7 +47,7 @@ export default function Home() {
         <Observations />
 
         {/* Building, advising and writing */}
-        <CurrentWork />
+        <CurrentFocus />
 
         {/* Conversation */}
         <section
