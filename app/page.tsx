@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Hero from "./components/Hero";
 import Perspective from "./components/Perspective";
 import Observations from "./components/Observations";
@@ -24,18 +25,24 @@ export default function Home() {
 
       <div className="relative mx-auto flex min-h-screen max-w-[1240px] flex-col px-6 md:px-10">
         {/* Header */}
-        <header className="flex items-center justify-between border-b border-white/[0.08] py-6">
-          <a
-            href="#top"
-            className="text-sm font-semibold uppercase tracking-[0.22em] text-white"
-          >
-            Daniel Conn Elfort
-          </a>
+       <header className="flex items-center justify-between border-b border-white/[0.08] py-6">
+  <a
+    href="#top"
+    className="transition-opacity duration-300 hover:opacity-80"
+  >
+    <Image
+      src="/brand/monogram-gold.png"
+      alt="Elfort"
+      width={50}
+      height={50}
+      priority
+    />
+  </a>
 
-          <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
-            Copenhagen, Denmark
-          </div>
-        </header>
+  <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
+    Copenhagen, Denmark
+  </div>
+</header>
 
         {/* Daniel */}
         <Hero />
