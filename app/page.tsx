@@ -92,7 +92,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/danielconnelfort"
+                  href="https://www.linkedin.com/in/elfort"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-3 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
