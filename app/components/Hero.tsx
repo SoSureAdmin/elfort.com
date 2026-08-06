@@ -11,15 +11,11 @@ export default function Hero() {
           Enterprise Perspective
         </div>
 
-        <div className="relative mt-6 text-center">
-  <div className="text-sm italic text-white/55">
-    Technology connects systems.
-  </div>
-
-  <div className="text-sm italic text-white/55">
-    Trust connects people.
-  </div>
-</div>
+        <h1 className="mt-6 text-5xl font-semibold leading-[0.95] tracking-[-0.05em] text-white md:text-7xl lg:text-[84px]">
+          Daniel Conn
+          <br />
+          Elfort
+        </h1>
 
         <div className="mt-10 max-w-[700px] border-l border-blue-300/45 pl-6">
           <p className="text-2xl font-medium leading-relaxed text-white md:text-3xl">
@@ -42,11 +38,11 @@ export default function Hero() {
 
         <div className="mt-10 flex flex-wrap gap-4">
           <a
-            href="mailto:daniel@elfort.com"
+            href="#perspective"
             className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-[#080d17] transition hover:bg-white/88"
           >
-            Start a conversation
-            <span aria-hidden="true">↗</span>
+            What Experience Taught Me
+            <span aria-hidden="true">↓</span>
           </a>
 
           <a
@@ -77,9 +73,15 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative mt-5 flex items-center justify-between text-[11px] uppercase tracking-[0.18em] text-white/42">
-          <span>Copenhagen</span>
-          <span>Europe · United States · Asia</span>
+        <div className="relative mt-6 text-center">
+          <div className="text-base font-medium text-white/85">
+            Daniel Conn Elfort
+          </div>
+
+          <div className="mt-3 text-sm leading-6 text-white/50">
+            <div>Technology connects systems.</div>
+            <div>Trust connects people.</div>
+          </div>
         </div>
       </div>
     </section>
