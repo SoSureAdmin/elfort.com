@@ -29,7 +29,7 @@ export default function Home() {
             href="#top"
             className="text-sm font-semibold uppercase tracking-[0.22em] text-white"
           >
-            Elfort
+            Daniel Conn Elfort
           </a>
 
           <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
@@ -77,8 +77,8 @@ export default function Home() {
                 </p>
 
                 <p>
-                  If my experience, perspective or current work resonates with
-                  you, I would be pleased to hear from you.
+                  If something you have read here resonates with you, I&apos;d
+                  be pleased to continue the conversation.
                 </p>
               </div>
 
@@ -111,24 +111,27 @@ export default function Home() {
             Experience tells you what happened.
             <br />
             <span className="text-white/48">
-              Perspective helps you understand why.
+              Perspective helps you decide what comes next.
             </span>
           </blockquote>
         </section>
 
         {/* Footer */}
-        <footer className="flex flex-col gap-5 border-t border-white/[0.08] py-8 text-xs text-white/40 md:flex-row md:items-end md:justify-between">
-          <div>
-            <div className="font-medium text-white/65">
+        <footer className="border-t border-white/[0.08] py-10">
+          <div className="flex flex-col items-center gap-3 text-center">
+            <div className="text-sm font-medium text-white">
               Daniel Conn Elfort
             </div>
 
-            <div className="mt-2">Copenhagen, Denmark</div>
-          </div>
+            <div className="text-sm text-white/50">
+              Technology connects systems.
+              <br />
+              Trust connects people.
+            </div>
 
-          <div className="md:text-right">
-            <div>Technology connects systems.</div>
-            <div className="mt-1 text-white/65">Trust connects people.</div>
+            <div className="pt-2 text-xs uppercase tracking-[0.18em] text-white/35">
+              Copenhagen, Denmark
+            </div>
           </div>
         </footer>
       </div>
