@@ -136,10 +136,10 @@ export default function Home() {
               className="transition-opacity duration-300 hover:opacity-80"
             >
               <Image
-                src="/brand/monogram-gold.svg"
+                src="/brand/monogram-gold.png"
                 alt="Elfort"
-                width={42}
-                height={42}
+                width={46}
+                height={46}
               />
             </a>
 
