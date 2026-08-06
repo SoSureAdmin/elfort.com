@@ -11,19 +11,15 @@ export default function Hero() {
           Enterprise Perspective
         </div>
 
-        <h1 className="mt-6 text-6xl font-semibold leading-[0.92] tracking-[-0.055em] text-white md:text-8xl lg:text-[96px]">
-          Daniel Conn
-          <br />
-          Elfort
-        </h1>
+        <div className="relative mt-6 text-center">
+  <div className="text-sm italic text-white/55">
+    Technology connects systems.
+  </div>
 
-        <div className="mt-10 text-3xl font-semibold leading-tight tracking-[-0.035em] text-white/92 md:text-5xl">
-          Patterns.
-          <br />
-          Systems.
-          <br />
-          Decisions.
-        </div>
+  <div className="text-sm italic text-white/55">
+    Trust connects people.
+  </div>
+</div>
 
         <div className="mt-10 max-w-[700px] border-l border-blue-300/45 pl-6">
           <p className="text-2xl font-medium leading-relaxed text-white md:text-3xl">
