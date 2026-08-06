@@ -4,22 +4,23 @@ export default function CurrentWork() {
       id="current-work"
       className="border-t border-white/[0.08] py-20 md:py-28"
     >
-      <div className="max-w-[820px]">
+      <div className="max-w-[860px]">
         <div className="text-xs font-medium uppercase tracking-[0.22em] text-white/44">
-          What I&apos;m Building
+          Today
         </div>
 
         <h2 className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
-          Today I divide my time between building, advising and writing.
+          I continue to build, advise, write and bring people together around
+          ideas that matter.
         </h2>
 
         <p className="mt-6 max-w-[720px] text-lg leading-9 text-white/58">
           Each reflects lessons learned through more than four decades in
-          enterprise technology, leadership and change.
+          technology, leadership, relationships and change.
         </p>
       </div>
 
-      <div className="mt-12 grid gap-5 md:grid-cols-3">
+      <div className="mt-12 grid gap-5 md:grid-cols-2">
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
           <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
             01 · Building
@@ -30,7 +31,7 @@ export default function CurrentWork() {
           </h3>
 
           <p className="mt-4 text-sm leading-7 text-white/62">
-            Years of observing enterprise technology eventually led to one
+            Years of observing enterprise technology led to one recurring
             conclusion: adoption always outpaces control.
           </p>
 
@@ -51,7 +52,27 @@ export default function CurrentWork() {
 
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
           <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-            02 · Advising
+            02 · Managing Partner
+          </div>
+
+          <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
+            Erfaring Indefra
+          </h3>
+
+          <p className="mt-4 text-sm leading-7 text-white/62">
+            Helping turn lived experience into practical learning, stronger
+            first encounters and better support for people affected by domestic
+            violence.
+          </p>
+
+          <p className="mt-4 text-sm font-medium leading-7 text-white/82">
+            A human mission built on trust, dignity and experience from within.
+          </p>
+        </article>
+
+        <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
+          <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
+            03 · Advising
           </div>
 
           <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
@@ -59,15 +80,15 @@ export default function CurrentWork() {
           </h3>
 
           <p className="mt-4 text-sm leading-7 text-white/62">
-            Working with founders, executives and organisations where
-            experience, perspective and trusted conversations can create
+            Working selectively with founders, executives and organisations
+            where experience, perspective and trusted conversations can create
             clarity and momentum.
           </p>
         </article>
 
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
           <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-            03 · Writing
+            04 · Writing
           </div>
 
           <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
@@ -76,7 +97,7 @@ export default function CurrentWork() {
 
           <p className="mt-4 text-sm leading-7 text-white/62">
             Exploring the patterns that repeat across technology, leadership,
-            organisations and human behaviour.
+            organisations, relationships and human behaviour.
           </p>
         </article>
       </div>
