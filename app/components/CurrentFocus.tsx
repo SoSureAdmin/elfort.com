@@ -10,8 +10,8 @@ export default function CurrentWork() {
         </div>
 
         <h2 className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
-          I continue to build, advise, write and bring people together around
-          ideas that matter.
+          Today, my focus spans enterprise AI, international market development,
+social impact and sharing the perspectives gained through experience.
         </h2>
 
         <p className="mt-6 max-w-[720px] text-lg leading-9 text-white/58">
@@ -55,6 +55,8 @@ export default function CurrentWork() {
 
         </article>
 
+
+
         {/* Erfaring Indefra */}
 
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
@@ -88,25 +90,39 @@ export default function CurrentWork() {
 
         </article>
 
-        {/* Executive Advisory */}
+        {/* FinnFlyer */}
 
-        <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
+<article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
 
-          <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-            03 · Advising
-          </div>
+  <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
+    02 · Market Development
+  </div>
 
-          <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-            Executive Advisory
-          </h3>
+  <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
+    FinnFlyer
+  </h3>
 
-          <p className="mt-4 text-sm leading-7 text-white/62">
-            Working selectively with founders, executives and organisations
-            where experience, perspective and trusted conversations create
-            clarity and momentum.
-          </p>
+  <p className="mt-4 text-sm leading-7 text-white/62">
+    Helping introduce premium Nordic boating craftsmanship to new markets
+    through strategic partnerships, commercial development and long-term
+    relationships.
+  </p>
 
-        </article>
+  <p className="mt-4 text-sm font-medium leading-7 text-white/82">
+    Building markets begins with building trust.
+  </p>
+
+  <a
+    href="https://finnflyer.fi/"
+    target="_blank"
+    rel="noreferrer"
+    className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200"
+  >
+    Visit FinnFlyer
+    <span aria-hidden="true">↗</span>
+  </a>
+
+</article>
 
         {/* Writing */}
 
