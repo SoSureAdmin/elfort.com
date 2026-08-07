@@ -128,36 +128,37 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="border-t border-white/[0.08] py-10">
-          <div className="flex flex-col items-center gap-5 text-center">
-            <a
-              href="#top"
-              aria-label="Back to top"
-              className="transition-opacity duration-300 hover:opacity-80"
-            >
-              <Image
-                src="/brand/monogram-gold.svg"
-                alt="Elfort"
-                width={46}
-                height={46}
-              />
-            </a>
+<footer className="border-t border-white/[0.08] py-10">
+  <div className="flex flex-col items-center gap-5 text-center">
+    <a
+      href="#top"
+      aria-label="Back to top"
+      className="transition-opacity duration-300 hover:opacity-80"
+    >
+      <img
+        src="/brand/monogram-gold.svg"
+        alt="Elfort"
+        width="46"
+        height="46"
+        className="block"
+      />
+    </a>
 
-            <div className="text-sm font-medium text-white">
-              Daniel Conn Elfort
-            </div>
+    <div className="text-sm font-medium text-white">
+      Daniel Conn Elfort
+    </div>
 
-            <div className="text-sm text-white/50">
-              Technology connects systems.
-              <br />
-              Trust connects people.
-            </div>
+    <div className="text-sm text-white/50">
+      Technology connects systems.
+      <br />
+      Trust connects people.
+    </div>
 
-            <div className="pt-2 text-xs uppercase tracking-[0.18em] text-white/35">
-              Copenhagen, Denmark
-            </div>
-          </div>
-        </footer>
+    <div className="pt-2 text-xs uppercase tracking-[0.18em] text-white/35">
+      Copenhagen, Denmark
+    </div>
+  </div>
+</footer>
       </div>
     </main>
   );
