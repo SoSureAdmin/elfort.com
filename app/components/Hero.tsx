@@ -63,7 +63,7 @@ export default function Hero() {
         <div className="relative overflow-hidden rounded-[30px] border border-white/[0.1] bg-white/[0.03] p-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[22px]">
             <Image
-              src="/daniel.png"
+             src="/daniel-new.png"
               alt="Daniel Conn Elfort"
               fill
               priority
