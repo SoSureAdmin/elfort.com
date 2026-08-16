@@ -148,6 +148,14 @@ export default function Home() {
       Daniel Conn Elfort
     </div>
 
+    <div className="max-w-[560px] text-sm leading-6 text-white/50">
+      The Elfort monogram comes from my father&apos;s handwriting — a small
+      piece of family history, and a reminder of where I
+      come from, and of the many things he taught me.
+      <br />
+      <span className="mt-2 inline-block text-white/70">Thanks, Dad.</span>
+    </div>
+
     <div className="text-sm text-white/50">
       Technology connects systems.
       <br />
