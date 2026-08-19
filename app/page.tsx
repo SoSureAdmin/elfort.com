@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
 import Perspective from "./components/Perspective";
+import Roots from "./components/Roots";
 import Observations from "./components/Observations";
 import CurrentFocus from "./components/CurrentFocus";
 
@@ -53,6 +54,9 @@ export default function Home() {
 
         {/* What experience taught me */}
         <Perspective />
+
+        {/* Roots */}
+<Roots />
 
         {/* Observations */}
         <Observations />
