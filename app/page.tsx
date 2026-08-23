@@ -36,12 +36,16 @@ export default function Home() {
             className="transition-opacity duration-300 hover:opacity-80"
           >
             <Image
-              src="/brand/monogram-gold.svg"
-              alt="Elfort"
-              width={50}
-              height={50}
-              priority
-            />
+  src="/brand/monogram-gold.svg"
+  alt="Elfort"
+  width={50}
+  height={50}
+  style={{
+    width: "50px",
+    height: "50px",
+  }}
+  priority
+/>
           </a>
 
           <div className="text-[11px] uppercase tracking-[0.18em] text-white/42">
@@ -56,7 +60,7 @@ export default function Home() {
         <Perspective />
 
         {/* Roots */}
-<Roots />
+        <Roots />
 
         {/* Observations */}
         <Observations />
@@ -131,53 +135,41 @@ export default function Home() {
           </blockquote>
         </section>
 
-              {/* Footer */}
-        <footer className="border-t border-white/[0.08] py-12">
-          <div className="flex flex-col items-center text-center">
-            <a
-              href="#top"
-              aria-label="Back to top"
-              className="transition-opacity duration-300 hover:opacity-80"
-            >
-              <Image
-                src="/brand/monogram-gold.svg"
-                alt="Elfort"
-                width={46}
-                height={46}
-                className="block"
-              />
-            </a>
+          {/* Footer */}
+<footer className="border-t border-white/[0.08] py-12">
+  <div className="flex flex-col items-center text-center">
 
-            <div className="mt-5 text-sm font-medium text-white">
-              Daniel Conn Elfort
-            </div>
+    <div className="text-sm font-medium text-white">
+      Daniel Conn Elfort
+    </div>
 
-            <div className="mt-8 max-w-[560px] text-sm leading-6 text-white/50">
-  The Elfort monogram comes from my father&apos;s handwriting — a small
-  piece of family history, and a reminder of where I come from and of the
-  many things he taught me.
-</div>
+    <div className="mt-8 max-w-[560px] text-sm leading-6 text-white/50">
+      The Elfort monogram comes from my father&apos;s handwriting — a small
+      piece of family history, and a reminder of where I come from and of the
+      many things he taught me.
+    </div>
 
-<div className="mt-4">
-  <Image
-    src="/brand/poul-e-signature-gold.png"
-    alt="Poul E."
-    width={176}
-    height={65}
-  />
-</div>
+    <div className="mt-4">
+      <Image
+        src="/brand/poul-e-signature-gold.png"
+        alt="Poul E."
+        width={176}
+        height={65}
+      />
+    </div>
 
-            <div className="mt-7 text-sm text-white/50">
-              Technology connects systems.
-              <br />
-              Trust connects people.
-            </div>
+    <div className="mt-7 text-sm text-white/50">
+      Technology connects systems.
+      <br />
+      Trust connects people.
+    </div>
 
-            <div className="pt-5 text-xs uppercase tracking-[0.18em] text-white/35">
-              Copenhagen, Denmark
-            </div>
-          </div>
-        </footer>
+    <div className="pt-5 text-xs uppercase tracking-[0.18em] text-white/35">
+      Copenhagen, Denmark
+    </div>
+
+  </div>
+</footer>    
       </div>
     </main>
   );
