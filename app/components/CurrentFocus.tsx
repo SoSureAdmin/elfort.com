@@ -11,7 +11,7 @@ export default function CurrentFocus() {
 
         <h2 className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
           Today, my focus spans enterprise AI, international market development,
-          social impact and sharing the perspectives gained through experience.
+new ventures and sharing the perspectives gained through experience.
         </h2>
 
         <p className="mt-6 max-w-[720px] text-lg leading-9 text-white/58">
@@ -82,34 +82,24 @@ export default function CurrentFocus() {
           </a>
         </article>
 
-        {/* Erfaring Indefra */}
+                {/* New Venture */}
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
           <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-            03 · Managing Partner
+            03 · Building
           </div>
 
           <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-            Erfaring Indefra
+            New Venture
           </h3>
 
           <p className="mt-4 text-sm leading-7 text-white/62">
-            Helping transform lived experience into practical learning,
-            stronger first encounters and meaningful organisational change.
+            Exploring how modular thinking, design and intelligent construction
+            systems can create simpler ways to build, adapt and expand.
           </p>
 
           <p className="mt-4 text-sm font-medium leading-7 text-white/82">
-            Helping shape strategy, partnerships and long-term impact.
+            Some ideas are better developed before they are announced.
           </p>
-
-          <a
-            href="https://www.erfaringindefra.com"
-            target="_blank"
-            rel="noreferrer"
-            className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200"
-          >
-            Explore Erfaring Indefra
-            <span aria-hidden="true">↗</span>
-          </a>
         </article>
 
         {/* Writing */}
