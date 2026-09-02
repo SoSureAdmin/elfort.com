@@ -100,8 +100,13 @@ export default function CurrentFocus() {
           </p>
 
           <p className="mt-4 text-sm font-medium leading-7 text-white/82">
-            Currently in development. Website coming soon.
-          </p>
+  Currently in development.
+</p>
+
+<div className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-blue-300">
+  4D-CUBE — Website coming soon
+  <span aria-hidden="true">→</span>
+</div>
         </article>
 
         {/* Erfaring Indefra */}
