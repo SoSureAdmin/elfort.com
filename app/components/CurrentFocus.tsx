@@ -123,6 +123,15 @@ export default function CurrentFocus() {
           <p className="mt-4 text-sm font-medium leading-7 text-white/82">
             Better understanding can lead to better first responses.
           </p>
+          <a
+  href="https://www.erfaringindefra.com/"
+  target="_blank"
+  rel="noreferrer"
+  className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200"
+>
+  Visit Erfaring Indefra
+  <span aria-hidden="true">↗</span>
+</a>
         </article>
       </div>
     </section>
