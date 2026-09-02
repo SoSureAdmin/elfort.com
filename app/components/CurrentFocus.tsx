@@ -11,12 +11,13 @@ export default function CurrentFocus() {
 
         <h2 className="mt-5 text-3xl font-semibold leading-tight tracking-[-0.025em] text-white md:text-5xl">
           Today, my focus spans enterprise AI, international market development,
-new ventures and sharing the perspectives gained through experience.
+          modular building systems and initiatives built around lived experience.
         </h2>
 
         <p className="mt-6 max-w-[720px] text-lg leading-9 text-white/58">
-          Each reflects lessons learned through more than four decades in
-          technology, leadership, relationships and change.
+          Different fields, but connected by the same principles: understanding
+          the context, finding what matters and bringing the right people
+          together to build something useful.
         </p>
       </div>
 
@@ -82,39 +83,45 @@ new ventures and sharing the perspectives gained through experience.
           </a>
         </article>
 
-                {/* New Venture */}
+        {/* 4D-CUBE */}
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
           <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
             03 · Building
           </div>
 
           <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-            New Venture
+            4D-CUBE
           </h3>
 
           <p className="mt-4 text-sm leading-7 text-white/62">
-            Exploring how modular thinking, design and intelligent construction
-            systems can create simpler ways to build, adapt and expand.
+            Exploring how modular thinking, standardized connections and
+            intelligent construction systems can create simpler ways to build,
+            adapt and expand.
           </p>
 
           <p className="mt-4 text-sm font-medium leading-7 text-white/82">
-            Some ideas are better developed before they are announced.
+            Development stage.
           </p>
         </article>
 
-        {/* Writing */}
+        {/* Erfaring Indefra */}
         <article className="rounded-[24px] border border-white/[0.08] bg-white/[0.025] p-7 transition hover:-translate-y-1 hover:border-blue-400/30 hover:bg-white/[0.04]">
           <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-blue-300/75">
-            04 · Writing
+            04 · Social Impact
           </div>
 
           <h3 className="mt-5 text-xl font-semibold tracking-tight text-white">
-            What Experience Taught Me
+            Erfaring Indefra
           </h3>
 
           <p className="mt-4 text-sm leading-7 text-white/62">
-            Exploring the patterns that repeat across technology, leadership,
-            organisations, relationships and human behaviour.
+            Turning lived experience into practical insight to help improve
+            how professionals and institutions understand situations from the
+            inside.
+          </p>
+
+          <p className="mt-4 text-sm font-medium leading-7 text-white/82">
+            Better understanding can lead to better first responses.
           </p>
         </article>
       </div>
