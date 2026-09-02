@@ -100,7 +100,7 @@ export default function CurrentFocus() {
           </p>
 
           <p className="mt-4 text-sm font-medium leading-7 text-white/82">
-            Currently in development.
+            Currently in development. Website coming soon.
           </p>
         </article>
 
