@@ -20,10 +20,10 @@ export default function Roots() {
           </h2>
 
           <div className="mt-10 max-w-[760px] space-y-5 text-lg leading-9 text-white/62">
-            <p>
-              In the early 1950s, my parents left Denmark as young adults and
-built a life in Halifax, Nova Scotia.
-            </p>
+           <p>
+  In the early 1950s, my parents left Denmark as young adults and
+  built a life in Halifax, Nova Scotia.
+</p>s
 
             <p>
               Decades later, I would make my own move across the Atlantic and

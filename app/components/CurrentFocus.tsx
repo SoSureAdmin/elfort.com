@@ -129,7 +129,7 @@ export default function CurrentFocus() {
             Better understanding can lead to better first responses.
           </p>
           <a
-  href="https://www.erfaringindefra.com/"
+  href="https://www.erfaringindefra.dk/"
   target="_blank"
   rel="noreferrer"
   className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-blue-300 transition hover:text-blue-200"
