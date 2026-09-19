@@ -76,11 +76,6 @@ export default function Perspective() {
               been in a hurry to build something that matters.
             </p>
 
-            <div className="pt-6 text-3xl font-semibold leading-relaxed tracking-[-0.025em] text-white md:text-4xl">
-              Technology connects systems.
-              <br />
-              Trust connects people.
-            </div>
           </div>
         </div>
       </div>

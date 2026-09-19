@@ -77,12 +77,7 @@ export default function Hero() {
           <div className="text-base font-medium text-white/85">
             Daniel Conn Elfort
           </div>
-
-          <div className="mt-3 text-sm leading-6 text-white/50">
-            <div>Technology connects systems.</div>
-            <div>Trust connects people.</div>
-          </div>
-        </div>
+    </div>
       </div>
     </section>
   );
