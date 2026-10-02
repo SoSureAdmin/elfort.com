@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -37,13 +38,13 @@ export default function Hero() {
         </div>
 
         <div className="mt-10 flex flex-wrap gap-4">
-          <a
-            href="#perspective"
+          <Link
+            href="/perspective"
             className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-[#080d17] transition hover:bg-white/88"
           >
             What Experience Taught Me
-            <span aria-hidden="true">↓</span>
-          </a>
+            <span aria-hidden="true">→</span>
+          </Link>
 
           <a
             href="https://www.sosure.us"
@@ -63,7 +64,7 @@ export default function Hero() {
         <div className="relative overflow-hidden rounded-[30px] border border-white/[0.1] bg-white/[0.03] p-3">
           <div className="relative aspect-[4/5] overflow-hidden rounded-[22px]">
             <Image
-             src="/daniel-new.png"
+              src="/daniel-new.png"
               alt="Daniel Conn Elfort"
               fill
               priority
@@ -73,11 +74,6 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative mt-6 text-center">
-          <div className="text-base font-medium text-white/85">
-            Daniel Conn Elfort
-          </div>
-    </div>
       </div>
     </section>
   );

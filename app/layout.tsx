@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import SiteFrame from "./components/SiteFrame";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,7 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Daniel Conn Elfort",
+  title: {
+    default: "Daniel Conn Elfort",
+    template: "%s | Daniel Conn Elfort",
+  },
   description:
     "Enterprise perspective on AI governance, enterprise architecture, operational resilience and strategic leadership.",
   authors: [{ name: "Daniel Conn Elfort" }],
@@ -41,7 +45,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        {children}
+        <SiteFrame>{children}</SiteFrame>
 
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-1QQMGKJ752"
