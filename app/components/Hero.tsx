@@ -37,7 +37,7 @@ export default function Hero() {
           <p className="text-white/82">People have always been the reason.</p>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-4">
+        <div className="mt-10">
           <Link
             href="/perspective"
             className="inline-flex items-center gap-2 rounded-xl bg-white px-6 py-3.5 text-sm font-semibold text-[#080d17] transition hover:bg-white/88"
@@ -45,35 +45,49 @@ export default function Hero() {
             What Experience Taught Me
             <span aria-hidden="true">→</span>
           </Link>
+        </div>
+
+        <div className="mt-7 flex flex-wrap items-center gap-x-4 gap-y-3 text-[12px]">
+          <span className="font-semibold uppercase tracking-[0.22em] text-white/30">
+            Projects
+          </span>
+
+          <span className="text-white/20">·</span>
 
           <a
             href="https://www.sosure.us"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
+            className="font-medium text-white/55 transition hover:text-white"
           >
-            Visit SoSure
-            <span aria-hidden="true">↗</span>
+            SoSure ↗
           </a>
 
           <a
             href="https://www.4d-cube.com"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
+            className="font-medium text-white/55 transition hover:text-white"
           >
-            Visit 4D-CUBE
-            <span aria-hidden="true">↗</span>
+            4D-CUBE ↗
           </a>
 
           <a
             href="https://www.erfaringindefra.dk"
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
+            className="font-medium text-white/55 transition hover:text-white"
           >
-            Visit Erfaring Indefra
-            <span aria-hidden="true">↗</span>
+            Erfaring Indefra ↗
+          </a>
+
+          <a
+            href="https://www.finnflyer.fi"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium text-white/55 transition hover:text-white"
+          >
+            FinnFlyer ↗
           </a>
         </div>
       </div>
