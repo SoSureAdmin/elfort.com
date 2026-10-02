@@ -55,6 +55,26 @@ export default function Hero() {
             Visit SoSure
             <span aria-hidden="true">↗</span>
           </a>
+
+          <a
+            href="https://www.4d-cube.com"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
+          >
+            Visit 4D-CUBE
+            <span aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            href="https://www.erfaringindefra.dk"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-xl border border-white/[0.14] bg-white/[0.03] px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/30 hover:bg-white/[0.07]"
+          >
+            Visit Erfaring Indefra
+            <span aria-hidden="true">↗</span>
+          </a>
         </div>
       </div>
 
@@ -73,7 +93,6 @@ export default function Hero() {
             />
           </div>
         </div>
-
       </div>
     </section>
   );
